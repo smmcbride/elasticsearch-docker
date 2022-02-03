@@ -1,5 +1,6 @@
 FROM ubuntu:18.04
-MAINTAINER Shawn McBride
+LABEL maintainer="Shawn McBride"
+LABEL description="For building an old version of Elasticsearch on my M1 laptop."
 LABEL version="1.0"
 
 RUN apt-get update --yes

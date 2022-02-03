@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := help
 
-up: ## Runs elasticsearch contrainer in the background
+up: ## Runs elasticsearch container in the background
 	docker-compose up -d
 logs: ## View logs
 	docker-compose logs -f
